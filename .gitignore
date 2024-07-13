@@ -1,0 +1,13 @@
+*__pycache__
+imgs
+logs
+data
+ckpts
+vp_models/dmvfn/data
+vp_models/dmvfn/imgs
+vp_models/dmvfn/logs
+vp_models/dmvfn/models
+vp_models/dmvfn/save_img
+yolov5/runs
+yolov5/train_dataset
+yolov5/test
