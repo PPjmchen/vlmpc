@@ -49,11 +49,10 @@ class VLMPC():
         self.classes_rev = {v: k for k, v in self.classes.items()}
  
         self.gpt_client = OpenAI(
-                    # base_url="https://hk.xty.app/v1",
-                    base_url="http://47.76.75.25:9000/v1",
-                    api_key="sk-itQ7BCQZjpcvqKfd035b9c9f475d4b0aA6452472Cf28DfF0",
+                    # TODO: set your OpenAI api key
+                    api_key="",
                     http_client=httpx.Client(
-                    base_url="http://47.76.75.25:9000/v1",
+                    base_url="https://api.openai.com/v1",
                     follow_redirects=True,
                     ),
                 )

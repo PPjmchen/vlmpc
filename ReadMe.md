@@ -1,5 +1,11 @@
 # VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation
 
+[Wentao Zhao*](https://taoshuaiz.github.io/), [Jiaming Chen*](https://ppjmchen.github.io/), Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), Wei Zhang
+
+*Shandong University*
+
+ ---
+
 This is the official repo for our Paper: [VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation](https://roboticsconference.org/program/papers/106/), which is accepted by **RSS2024**. 
 
 We provide the implementation of VLMPC in [Language-Table](https://github.com/google-research/language-table) environment.
@@ -10,46 +16,29 @@ We provide the implementation of VLMPC in [Language-Table](https://github.com/go
 
 ## Installation
 
-- We recoomend using conda environment:
 
 ```bash
 conda create -n vlmpc python=3.10
 conda activate vlmpc
-```
 
-- Install dependencies:
-
-```bash
 pip install -r requirements.txt
 ```
 
-- Add your [Openai API](https://openai.com/index/openai-api/) key to the vlmpc.py.
+**Note**: Add your [Openai API](https://openai.com/index/openai-api/) key to the vlmpc.py.
 
 
 ## Quickstart
 
-Example command to run the experiments.
+We provide the trained checkpoints of [video prediction model](https://drive.google.com/file/d/1nztdUl4wanRXscNblmhX2_FF0Y2--TqF/view?usp=drive_link) and [detector](https://drive.google.com/file/d/1bjaxhmEIIav30HLdTKYvM-IWLqcIyCS7/view?usp=drive_link), download them for quick start:
+
 ```python
-python main.py --checkpoint_file path/to/video_prediction_model/checkpoint --task push_corner --zoom 0.03 --num_samples 50 --plan_freq 3 --det_path path/to/yolo/checkpoint
+python main.py --checkpoint_file path/to/video_prediction_model/checkpoint --task push_corner --zoom 0.03 --num_samples 50 --plan_freq 3 --det_path path/to/detector/checkpoint
 ```
 
-## Code Structure
-
-Core to VLMPC:
-- ```main.py``` 
-- ```vlmpc.py```: Implementation of the MPC loop for combining VLMs to guide the robotic manipulation step by step.
-- ```prompt_gpt.py```: Prompts used to decompose task and generate the sub-goals.
-- ```video_interface.py```: Interface that provide video prediction model to predicture future states.
-- ```sampler.py```: Interface used for sampling actions.
 
 ## Acknowledgements
 - Environment is based on [Language-Table](https://interactive-language.github.io/).
-- The implementation of DMVFN-Act video prediction model is based on [DMVFN](https://github.com/hzwer/CVPR2023-DMVFN)
-- pysort
+- The implementation of DMVFN-Act video prediction model is based on [DMVFN](https://github.com/hzwer/CVPR2023-DMVFN).
+- [PySOT](https://github.com/STVIR/pysot) for lightweight visual tracking.
 
 
-## Citation
-
-If you find this work useful, please feel free to cite our paper or leave a star:
-```
-```
