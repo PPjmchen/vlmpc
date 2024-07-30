@@ -38,11 +38,11 @@ python main.py --checkpoint_file path/to/video_prediction_model/checkpoint --tas
 ## Citation
 ```
 @inproceedings{zhao2024vlmpc,
-title={{VLMPC}: Vision-Language Model Predictive Control for Robotic Manipulation},
-author={Zhao, Wentao and Chen, Jiaming and Meng, Ziyu and Mao, Donghui and Song, Ran and Zhang, Wei},
-booktitle={Robotics: Science and Systems},
-year={2024},
-}
+    title={VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation},
+    author={Zhao, Wentao and Chen, Jiaming and Meng, Ziyu and Mao, Donghui and Song, Ran and Zhang, Wei},
+    booktitle={Robotics: Science and Systems},
+    year={2024},
+    }
 ```
 
 ## Acknowledgements
