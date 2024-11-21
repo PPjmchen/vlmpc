@@ -6,7 +6,7 @@
 
  ---
 
-This is the official repo for our Paper: [VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation](https://roboticsconference.org/program/papers/106/), which is accepted by **RSS2024**. 
+This is the official repo for our Paper: [VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation](https://www.roboticsproceedings.org/rss20/p106.pdf), which is accepted by **RSS2024**. 
 
 We provide the implementation of VLMPC in [Language-Table](https://github.com/google-research/language-table) environment.
 
