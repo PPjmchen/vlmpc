@@ -6,7 +6,6 @@ This is the official repo for our papers:
 
 &ensp;&ensp;&ensp;&ensp;[Wentao Zhao*](https://taoshuaiz.github.io/), [Jiaming Chen*](https://ppjmchen.github.io/), Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), Wei Zhang
 
-and 
 
 2. Vision-Language Model Predictive Control for Manipulation Planning and Trajectory Generation
 
