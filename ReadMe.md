@@ -1,12 +1,16 @@
-# VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation
+# VLMPC & Traj-VLMPC
 
-[Wentao Zhao*](https://taoshuaiz.github.io/), [Jiaming Chen*](https://ppjmchen.github.io/), Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), Wei Zhang
+This is the official repo for our papers:
 
-*Shandong University*
+1. [VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation (RSS 2024)](https://www.roboticsproceedings.org/rss20/p106.pdf)
 
- ---
+&ensp;&ensp;&ensp;&ensp;[Wentao Zhao*](https://taoshuaiz.github.io/), [Jiaming Chen*](https://ppjmchen.github.io/), Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), Wei Zhang
 
-This is the official repo for our Paper: [VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation](https://www.roboticsproceedings.org/rss20/p106.pdf), which is accepted by **RSS2024**. 
+and 
+
+2. Vision-Language Model Predictive Control for Manipulation Planning and Trajectory Generation
+
+&ensp;&ensp;&ensp;&ensp;[Jiaming Chen*](https://ppjmchen.github.io/), [Wentao Zhao*](https://taoshuaiz.github.io/), ,Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), [Wei Pan](https://panweihit.github.io/) , Wei Zhang
 
 We provide the implementation of VLMPC in [Language-Table](https://github.com/google-research/language-table) environment.
 
