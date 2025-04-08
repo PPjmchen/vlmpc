@@ -6,9 +6,7 @@
  
  &ensp;&ensp;&ensp;&ensp;[Wentao Zhao*](https://taoshuaiz.github.io/), [Jiaming Chen*](https://ppjmchen.github.io/), Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), Wei Zhang
  
- and 
- 
- 2. Vision-Language Model Predictive Control for Manipulation Planning and Trajectory Generation
+ 2. [Vision-Language Model Predictive Control for Manipulation Planning and Trajectory Generation](https://arxiv.org/abs/2504.05225)
  
  &ensp;&ensp;&ensp;&ensp;[Jiaming Chen*](https://ppjmchen.github.io/), [Wentao Zhao*](https://taoshuaiz.github.io/), ,Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), [Wei Pan](https://panweihit.github.io/) , Wei Zhang
  
