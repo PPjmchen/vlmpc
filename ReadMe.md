@@ -2,7 +2,7 @@
  
  This is the official repo for our papers:
  
- 1. [VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation (RSS 2024)](https://www.roboticsproceedings.org/rss20/p106.pdf)
+ 1. [VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation](https://www.roboticsproceedings.org/rss20/p106.pdf), ***RSS2024***
  
  &ensp;&ensp;&ensp;&ensp;[Wentao Zhao*](https://taoshuaiz.github.io/), [Jiaming Chen*](https://ppjmchen.github.io/), Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), Wei Zhang
  
