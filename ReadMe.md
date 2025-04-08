@@ -4,11 +4,11 @@
  
  1. [VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation](https://www.roboticsproceedings.org/rss20/p106.pdf), ***RSS2024***
  
- &ensp;&ensp;&ensp;&ensp;[Wentao Zhao*](https://taoshuaiz.github.io/), [Jiaming Chen*](https://ppjmchen.github.io/), Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), Wei Zhang
+ &ensp;&ensp;&ensp;&ensp;[Wentao Zhao*](https://taoshuaiz.github.io/), [Jiaming Chen*](https://ppjmchen.github.io/), Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), [Wei Zhang](https://vsislab.github.io/Weizhang/)
  
  2. [Vision-Language Model Predictive Control for Manipulation Planning and Trajectory Generation](https://arxiv.org/abs/2504.05225)
  
- &ensp;&ensp;&ensp;&ensp;[Jiaming Chen*](https://ppjmchen.github.io/), [Wentao Zhao*](https://taoshuaiz.github.io/), ,Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), [Wei Pan](https://panweihit.github.io/) , Wei Zhang
+ &ensp;&ensp;&ensp;&ensp;[Jiaming Chen*](https://ppjmchen.github.io/), [Wentao Zhao*](https://taoshuaiz.github.io/), ,Ziyu Meng, Donghui Mao, [Ran Song†](https://faculty.sdu.edu.cn/songran/en/index/1023305/list/index.htm), [Wei Pan](https://panweihit.github.io/) , [Wei Zhang](https://vsislab.github.io/Weizhang/)
  
  We provide the implementation of VLMPC in [Language-Table](https://github.com/google-research/language-table) environment.
  
